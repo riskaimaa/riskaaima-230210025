@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda - HARRIS Hotel Batam Center</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f4511e;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .hero-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+    .galeri-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .galeri-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #222;
+      text-align: center;
+      padding: 15px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HARRIS Hotel Batam Center</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="profil.html">Profil</a>
+      <a href="restoran.html">Restoran</a>
+      <a href="fasilitas.html">Fasilitas</a>
+      <a href="room.html">Kamar</a>
+      <a href="meeting.html">Meeting & Event</a>
+      <a href="lokasi.html">Lokasi</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/hotel-front.jpg" alt="HARRIS Hotel Batam" class="hero-img">
+      <div style="padding: 20px; text-align: center;">
+        <h2>Selamat Datang di HARRIS Hotel Batam Center</h2>
+        <p>Hotel modern dan nyaman dengan lokasi strategis di pusat kota Batam.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3 style="text-align:center;">Galeri</h3>
+      <div class="galeri-grid">
+        <div>
+          <img src="images/lobby.jpg" alt="Lobby Hotel">
+          <p style="text-align:center;">Lobby Hotel</p>
+        </div>
+        <div>
+          <img src="images/restaurant.jpg" alt="Restoran">
+          <p style="text-align:center;">Restoran</p>
+        </div>
+        <div>
+          <img src="images/room.jpg" alt="Kamar Hotel">
+          <p style="text-align:center;">Kamar Hotel</p>
+        </div>
+        <div>
+          <img src="images/pool.jpg" alt="Kolam Renang">
+          <p style="text-align:center;">Kolam Renang</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HARRIS Hotel Batam Center. All rights reserved.</p>
+  </footer>
+</body>
+</html>
